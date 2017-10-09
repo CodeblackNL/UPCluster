@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>UPCluster</id>
+    <version>0.0.0.0</version>
+    <authors>Jeroen Swart</authors>
+    <owners>Codeblack</owners>
+    <copyright>(c) Jeroen Swart 2016. All rights reserved.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Module for managing an UP-board cluster.</description>
+    <projectUrl>https://github.com/CodeblackNL/UPCluster</projectUrl>
+    <tags>UP UP-board ServiceFabric Containers Docker DSC</tags>
+    <releaseNotes />
+  </metadata>
+  <files>
+    <file src="Functions\**\*.*" target="Functions" />
+    <file src="Internal\**\*.*" target="Internal" />
+    <file src="Classes.ps1" target="" />
+    <file src="UPCluster.psd1" target="" />
+    <file src="UPCluster.psm1" target="" />
+  </files>
+</package>
